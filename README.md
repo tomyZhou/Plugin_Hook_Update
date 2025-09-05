@@ -1,5 +1,5 @@
 # Plugin_Hook_Update
-这个项目是根据这个项目https://github.com/han1202012/Plugin_Hook修改而来的。主要修改了两个地方：
+这个项目是根据这个项目https://github.com/han1202012/Plugin_Hook 修改而来的。主要修改了两个地方：
 1.Android28以后hook不了hook不了ActivityManager的startActivity方法了，我试了不起作用。于是我就要宿主Manifest.xml里面注册了插件Activity。
 
    <activity  android:name="com.example.plugin.MainActivity"> </activity>
