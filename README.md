@@ -7,6 +7,8 @@
 
 2.添加了Manifest.xml声明后使用原项目里的方式启动Activity还是会提示打不开，问有没有声明。于是我修改了记动方式，如下：
 
+```java
+
  //----------------------------------原代码，启动不了插件Activity
 //
 //                 启动插件包中的 Activity
@@ -33,7 +35,7 @@
                     throw new RuntimeException(e);
                 }
 
-           
+```
 
 
 
